@@ -27,9 +27,15 @@ We implemented a GBM model, explicitly handling class imbalance via the `scale_p
 GBMs clearly outperformed GLMs in this scenario due to their ability to model complex, non-linear relationships and better handle imbalanced datasets. Key advantages clearly demonstrated by GBMs include significantly higher ROC-AUC, precision, recall, and accuracy.
 
 ## Key Model Insights
-Feature importance analysis (next step) can clearly identify the most influential factors driving fraud detection, aiding business stakeholders in targeting resources effectively.
 
-## Next Steps
-- Visualizing feature importance clearly.
-- Adding model interpretability using SHAP values.
-- Potential deployment as an API for real-time prediction (optional).
+The GBM feature importance clearly highlights specific factors strongly associated with fraudulent claims:
+
+- **Hobbies:** Activities like cross-fit, paintball, or skydiving may correlate with higher-risk behaviors.
+- **Incident severity:** Total loss or minor damage incidents appear important in predicting fraud.
+- **Vehicle Models:** Certain vehicle models (e.g., Pathfinder, Neon, Civic) may be targeted or associated with higher risk.
+- **Occupation:** Individuals with occupations like armed forces may have different risk profiles affecting claims.
+- **Total claim amount:** Higher claim amounts could potentially indicate fraudulent behavior.
+
+These insights allow stakeholders to better understand and manage insurance fraud risk clearly and effectively.
+
+![feature_importance](https://github.com/user-attachments/assets/2e3eb76f-3a2a-46d7-9c7e-fe95223853e2)

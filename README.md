@@ -1,3 +1,7 @@
+## Getting Started
+
+- **Dataset source**: [Auto Insurance Claims Fraud Detection (Kaggle)](https://www.kaggle.com/code/buntyshah/insurance-fraud-claims-detection)
+
 # insurance-fraud-detection
 Predicting Insurance Fraud with GLMs and GBMs
 # Predicting Insurance Fraud with GLMs and GBMs
